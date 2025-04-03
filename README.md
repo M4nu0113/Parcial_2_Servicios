@@ -19,6 +19,6 @@ Abril 03 de 2025
 ## Relaciones
 
 ## Integrantes
-Manuela Estrada Villada
-Juan Camilo Duarte Vasco
+- Manuela Estrada Villada
+- Juan Camilo Duarte Vasco
 
