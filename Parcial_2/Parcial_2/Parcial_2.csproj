@@ -162,20 +162,37 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Clases\clsPesaje.cs" />
+    <Compile Include="Clases\clsUpload.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Controllers\PesajeController.cs" />
+    <Compile Include="Controllers\UploadFilesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Camion.cs">
+      <DependentUpon>DBExamen.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\DBExamen.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DBExamen.Context.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\DBExamen.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBExamen.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\DBExamen.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DBExamen.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FotoPesaje.cs">
+      <DependentUpon>DBExamen.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Pesaje.cs">
+      <DependentUpon>DBExamen.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -202,6 +219,12 @@
     <Content Include="Models\DBExamen.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>DBExamen.Context.cs</LastGenOutput>
+      <DependentUpon>DBExamen.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\DBExamen.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DBExamen.edmx</DependentUpon>
+      <LastGenOutput>DBExamen.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -232,9 +255,9 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>DBExamen.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="Models\DBExamen.edmx.diagram">
+    <Content Include="Models\DBExamen.edmx.diagram">
       <DependentUpon>DBExamen.edmx</DependentUpon>
-    </None>
+    </Content>
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -258,6 +281,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Archivos\" />
+    <Folder Include="Views\Pesaje\" />
+    <Folder Include="Views\UploadFiles\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\bootstrap.min.js.map" />

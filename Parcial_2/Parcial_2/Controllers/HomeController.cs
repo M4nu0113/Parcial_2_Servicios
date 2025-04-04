@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Parcial_2.Controllers
+namespace Computadores.Controllers
 {
     public class HomeController : Controller
     {
