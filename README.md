@@ -7,7 +7,7 @@ Abril 03 de 2025
 - [Descripción del problema](#Descripción-del-problema)
 - [Puntos a realizar](#Puntos-a-realizar)
 - [Diagrama de la base de datos](#Diagrama-de-la-base-de-datos)
-- [Relaciones](#Relaciones)
+- [Video Pruebas Postman](#VideoPruebasPostman)
 - [Integrantes](#Integrantes)
 
 ## Descripción del problema
@@ -35,6 +35,8 @@ servicio deben ir los datos del camión.
 ## Diagrama de la base de datos
 ![Diagrama bd](https://github.com/user-attachments/assets/eee47b3f-c161-4f6e-8c2e-0739711b45e9)
 
+## Video Pruebas Postman
+[🔗 Link al video en Stream](https://correoitmedu-my.sharepoint.com/:v:/g/personal/manuelaestrada1118581_correo_itm_edu_co/EeOeK4jmBtBDo1k2Jd5O_2IBfKKE1eH_2vkTSFnIcfnZfA?e=c3duj6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 ## Integrantes
 - Manuela Estrada Villada
 - Juan Camilo Duarte Vasco
