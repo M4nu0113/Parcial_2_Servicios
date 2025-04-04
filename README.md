@@ -33,7 +33,7 @@ servicio deben ir los datos del camión.
    6.  el nombre de las imágenes que respaldan el proceso.
 
 ## Diagrama de la base de datos
-![Diagrama bd](https://github.com/user-attachments/assets/eee47b3f-c161-4f6e-8c2e-0739711b45e9)
+![Captura de pantalla 2025-04-03 191621](https://github.com/user-attachments/assets/701e9307-0593-4a69-ab92-599e0468b3ce)
 
 ## Video Pruebas Postman
 [🔗 Link al video en Stream](https://correoitmedu-my.sharepoint.com/:v:/g/personal/manuelaestrada1118581_correo_itm_edu_co/EeOeK4jmBtBDo1k2Jd5O_2IBfKKE1eH_2vkTSFnIcfnZfA?e=c3duj6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
